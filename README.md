@@ -1,0 +1,3 @@
+# Unhandled Exception in Node.js Server
+
+This example demonstrates a common issue in Node.js applications: unhandled exceptions causing the server to crash without proper error handling. The `bug.js` file shows a server that throws an error without catching it. This leads to the server process terminating abruptly.  The solution, provided in `bugSolution.js`, demonstrates the use of a `try...catch` block for robust error handling and logging.
